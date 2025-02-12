@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.book</groupId>
-	<artifactId>bookstore</artifactId>
+	<artifactId>bookstore-application-micro</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bookstore</name>
 	<description>Book Store project for Spring Boot</description>
@@ -62,6 +62,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>bookstore-application-micro</finalName>
 	</build>
 
 </project>
